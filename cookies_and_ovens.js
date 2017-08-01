@@ -57,7 +57,7 @@ class KueCincin extends Cookie {
 class KueSagu extends Cookie {
   constructor(name, status) {
     super(name, status)
-    his.status = this.matang(status);
+    this.status = this.matang(status);
   }
   matang(param) {
     let maks = 35;
